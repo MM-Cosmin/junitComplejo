@@ -8,16 +8,12 @@ import org.junit.Test;
 public class ComplejoTest2 {
 	Complejo c1, c2;
 
-	@Before
-	public void setUp() throws Exception {
-        // 1. Arrange
-        c1 = new Complejo(3, 5);
-        c2 = new Complejo(1, -1);
-
-	}
-
 	@Test
 	public void testRestar() {
+		// 1. Arrange
+        c1 = new Complejo(3, 5);
+        c2 = new Complejo(1, -1);
+        // 2. Act
 
 		Complejo resultado = c1.restar(c2);  // 2. Act
 
