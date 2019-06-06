@@ -5,8 +5,8 @@ public class Complejo{
     private float _parteImaginaria;
 
     public Complejo (float parteReal, float parteImaginaria){
-     this._parteReal = parteReal; 
-     this._parteImaginaria = parteImaginaria;                
+     this._parteReal = parteReal;
+     this._parteImaginaria = parteImaginaria;
     }
     public float getParteReal(){
             return _parteReal;
@@ -14,8 +14,9 @@ public class Complejo{
 
     public float getParteImaginaria(){
             return _parteImaginaria;
+
     }
-    
+
     public Complejo sumar(Complejo c){
             return new Complejo( this.getParteReal() +  c.getParteReal(),
                                  this.getParteImaginaria() + c.getParteImaginaria()  );
@@ -25,4 +26,4 @@ public class Complejo{
                              this.getParteImaginaria() - c.getParteImaginaria()  );
 }
 
-} 
+}
