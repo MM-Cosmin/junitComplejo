@@ -8,6 +8,7 @@ public class Complejo{
      this._parteReal = parteReal;
      this._parteImaginaria = parteImaginaria;
     }
+
     public float getParteReal(){
             return _parteReal;
     }
